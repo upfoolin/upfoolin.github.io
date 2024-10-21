@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: white;
+            text-shadow: 0 0 1px transparent, 0 1px 2px rgb(0 0 0 / 50%);
+        }
+
+        body >img {
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        section {
+            display: grid;
+            place-items: center;
+            position: absolute;
+            inset: 0;
+            overflow-y: scroll;
+        }
+        
+        section div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section > div {
+            padding: 100px 10px;
+        }
+
+        section div img {
+            width: 100px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            box-shadow: 0 0 8px 1px white;
+        }
+
+        a {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            border: 1.5px solid white;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            gap: 20px;
+            align-items: center;
+            border-radius: 4px;
+            transition-duration: 200ms;
+        }
+
+        a:hover {
+            background: white;
+            color: black;
+        }
+
+        a i {
+            font-size: 1.3em;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <img src="https://images.unsplash.com/photo-1636953056323-9c09fdd74fa6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="bg" />
+    <section>
+        <div>
+            <img src="https://yt3.ggpht.com/Bn3sSFCYbjHv_cGdyQfnXpTcV8iFgmql6ySvBcUqcFRshHGUpkw5v0QCAJyx6MqVUVKtETTZIw=s600-c-k-c0x00ffffff-no-rj-rp-mo" alt="dp" />
+            <h2>up</h2>
+            <div>
+                <a href="https://www.youtube.com/@upfoolin">
+                    <i class="fa-brands fa-youtube"></i>
+                    <p>YouTube</p>
+                </a>
+                <a href="https://www.twitch.tv/upfoolin">
+                    <i class="fa-brands fa-twitch"></i>
+                    <p>Twitch</p>
+                </a>
+                <a href="https://open.spotify.com/artist/0UXxJmsyANpClWpost43AM?si=LqaMQjY2SrSRAluD_HyHTw">
+                    <i class="fa-brands fa-spotify"></i>
+                    <p>Spotify</p>
+                </a>
+                <a href="https://music.apple.com/ee/artist/up/1638359763">
+                    <i class="fa-brands fa-itunes-note"></i>
+                    <p>Apple Music</p>
+                </a>
+                <a href="https://soundcloud.com/upfoolin">
+                    <i class="fa-brands fa-soundcloud"></i>
+                    <p>SoundCloud</p>
+                </a>
+                <a href="https://music.amazon.com/artists/B000QK6IVO/up">
+                    <i class="fa-brands fa-amazon"></i>
+                    <p>Amazon Music</p>
+                </a>
+                <a href="https://x.com/upfoolin">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <p>X/Twitter</p>
+                </a>
+                <a href="https://www.instagram.com/upfoolin">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p>Instagram</p>
+                </a>
+                <a href="https://bsky.app/profile/upfoolin.cloud">
+                    <i class="fa-brands fa-bluesky"></i>
+                    <p>Bluesky</p>
+                </a>
+                <a href="https://steamcommunity.com/id/upfoolin">
+                    <i class="fa-brands fa-steam"></i>
+                    <p>Steam</p>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
